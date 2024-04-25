@@ -1,0 +1,152 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300&display=swap");
+
+* {
+
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Noto Sans";
+
+}
+
+body {
+  background-color: #ede8f5;
+  margin-inline: 0rem;
+}
+
+
+/* hero section */
+/* header */
+
+.profile-area {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1.5rem;
+  background-color: #3d52a0;
+  padding-block: 1rem;
+  padding-inline: 1rem;
+}
+
+img {
+  width: 80px;
+  border-radius: 10px;
+  box-shadow: 1px 1px 10px #263363;
+  transition: width 0.5s ease;
+}
+
+.profile-heading {
+  color: white;
+  text-shadow: 1px 1px 8px #263363;
+  font-size: 1.3rem;
+  font-weight: bold;
+  transition: font-size 0.4s ease;
+}
+
+/* nav */
+
+nav {
+
+  background-color: #8697c4;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.nav-ul {
+
+  list-style: none;
+  padding: 0px;
+  margin: 0px;
+  
+}
+
+.nav-ul a{
+  color: #161e39;
+  text-decoration: none;
+  /* padding-inline: 4rem;
+  padding-block: 0.5rem; */
+  display: block;
+  padding: 8px;
+  text-align: center;
+  font-size: 1rem;
+  font-weight: bold;
+  text-shadow: 1px 1px 5px #acbdec;
+  
+}
+
+.nav-ul a:hover {
+  background-color: #535e7b;
+}
+
+
+/* cards section */
+
+
+.main-heading {
+  text-align: center;
+  text-decoration: underline;
+  padding-block: 1rem;
+  padding-inline: .5rem;
+  font-size: 1.1rem;
+  color: #1f2a51;
+  font-weight: bolder;
+  text-shadow: 1px 1px 10px rgb(216, 216, 216);
+  transition: font-size 0.4s ease;
+}
+
+.section2-ul {
+  list-style: none;
+  padding: 1rem;
+  line-height: 1.8rem;
+}
+
+.section2-ul a {
+  text-decoration: none;
+  color: #1f2a51;
+  
+}
+
+.card {
+  box-shadow: 1px 1px 5px #3d52a0bc;
+  border-radius: 5px;
+  margin: .5rem;
+  border: 1px #3d52a08c solid;
+  
+}
+
+h2 {
+  background-color: #3d52a0;
+  text-align: center;
+  border-radius: 5px 5px 0px 0px;
+  padding-block: .5rem;
+  color: white;
+  text-shadow: 1px 1px 5px #263363;
+  font-size: 1rem;
+}
+
+.card2-paragraph {
+  padding: 1rem;
+}
+
+/* footer section */
+
+footer {
+  text-align: center;
+  background-color: #3d52a0;
+  padding-block: .8rem;
+}
+
+.footerParagraph {
+  padding: .3rem;
+  font-size: .8rem;
+  color: white;
+  text-shadow: 1px 1px 5px #263363;
+}
+
+.lastModified {
+  padding: .3rem;
+  font-size: .7rem;
+  color: rgb(219, 226, 39);
+  text-shadow: 1px 1px 5px #263363;
+}
