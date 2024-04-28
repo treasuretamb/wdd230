@@ -2,10 +2,10 @@ document.addEventListener('DOMContentLoaded', function() {
   const footerParagraph = document.getElementById('footer');
   const lastModifiedParagraph = document.querySelector('.lastModified');
 
-  // Get current year
+  // current year
   const currentYear = new Date().getFullYear();
 
-  // Get last modified date
+  // last modified date
   const lastModified = document.lastModified;
 
 // Update the placeholder with the current year
