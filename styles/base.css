@@ -10,7 +10,7 @@
 }
 
 body {
-  background-color: #ede8f5;
+  background-color: #ffffff;
   margin-inline: 0rem;
 }
 
@@ -18,7 +18,7 @@ body {
 /* hero section */
 /* header */
 
-.profile-area {
+header {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -47,7 +47,7 @@ img {
 
 nav {
 
-  background-color: #8697c4;
+  background-color: #3d52a0bd;
   align-items: center;
   justify-content: center;
 
@@ -62,21 +62,19 @@ nav {
 }
 
 .nav-ul a{
-  color: #161e39;
+  color: white;
   text-decoration: none;
-  /* padding-inline: 4rem;
-  padding-block: 0.5rem; */
   display: block;
   padding: 8px;
   text-align: center;
   font-size: 1rem;
   font-weight: bold;
-  text-shadow: 1px 1px 5px #acbdec;
+  
   
 }
 
 .nav-ul a:hover {
-  background-color: #535e7b;
+  background-color: #3d52a0;
 }
 
 
@@ -89,9 +87,8 @@ nav {
   padding-block: 1rem;
   padding-inline: .5rem;
   font-size: 1.1rem;
-  color: #1f2a51;
+  color: #263363;
   font-weight: bolder;
-  text-shadow: 1px 1px 10px rgb(216, 216, 216);
   transition: font-size 0.4s ease;
 }
 
@@ -112,16 +109,16 @@ nav {
   border-radius: 5px;
   margin: .5rem;
   border: 1px #3d52a08c solid;
+  background-color: #f0f0f0;
   
 }
 
 h2 {
-  background-color: #3d52a0;
+  background-color: #f9906a;
   text-align: center;
   border-radius: 5px 5px 0px 0px;
   padding-block: .5rem;
   color: white;
-  text-shadow: 1px 1px 5px #263363;
   font-size: 1rem;
 }
 
@@ -147,6 +144,6 @@ footer {
 .lastModified {
   padding: .3rem;
   font-size: .7rem;
-  color: rgb(219, 226, 39);
+  color: #f9906a;
   text-shadow: 1px 1px 5px #263363;
 }
