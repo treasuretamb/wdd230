@@ -225,6 +225,7 @@ header {
 }
 
 .mobile-nav__menu {
+  margin-top: 2rem;
   list-style: none;
   padding: 0;
   display: flex;
