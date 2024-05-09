@@ -1,0 +1,55 @@
+
+
+.main-heading {
+  text-align: center;
+  text-decoration: underline;
+  padding-block: 1rem;
+  padding-inline: .5rem;
+  font-size: var(--size-xl);
+  color: var(--clr-navy);
+  font-weight: bold;
+}
+
+.section2-ul {
+  display: flex;
+  flex-direction: column;
+  gap: .5em;
+  list-style: none;
+  padding: 1rem;
+  line-height: 1.8rem;
+  margin-top: 1rem;
+  
+}
+
+.section2-ul a {
+  text-decoration: none;
+  color: var(--clr-navy);
+  
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  box-shadow: 1px 1px 5px #a0613dbc;
+  border-radius: 5px;
+  margin: .5rem;
+  border: 1px solid var(--clr-orange);
+  background-color: transparent;
+  height: 20rem;
+  margin-bottom: 1rem;
+  color: var(--clr-navy);
+}
+
+h3 {
+  background-color: var(--clr-orange);
+  text-align: center;
+  border-radius: 5px 5px 0px 0px;
+  padding-block: .5rem;
+  color: #f5f5f4;
+  font-size: 1rem;
+}
+
+.card2-paragraph {
+  padding: 1rem;
+  margin-top: 1rem;
+}

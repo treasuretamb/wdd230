@@ -14,4 +14,5 @@ document.getElementById("currentYearPlaceholder").textContent = currentYear;
   // Set content in footer
   footerParagraph.textContent = `©${currentYear} | Treasure Tambwanaye | South Africa`;
   lastModifiedParagraph.textContent = `Last Modified: ${lastModified}`;
+
 });
