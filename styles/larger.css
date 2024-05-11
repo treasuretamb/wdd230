@@ -1,5 +1,9 @@
 /* s */
 @media (min-width: 640px) {
+
+  body {
+    padding-inline: 1rem;
+  }
  
   .main-section-container {
 
@@ -35,6 +39,10 @@
 /* md */
 @media (min-width: 768px) {
 
+  body {
+    padding-inline: 2rem;
+  }
+
   nav {
     display: flex;
     width: 100%;
@@ -51,6 +59,7 @@
     box-shadow: 0.5px 0.5px 4px var(--clr-orange);
   
   }
+
 
   .profile-heading {
     color: white;
@@ -130,11 +139,16 @@
 
 /* lg */
 @media (min-width: 1024px) {
+
+  body {
+    padding-inline: 5rem;
+  }
+
   .header__link a {
     font-size: var(--size-s);
 
   }
-  
+
   .header__sun {
     display: block;
     color: var(--clr-stone600);
@@ -143,14 +157,11 @@
     background: transparent;
   }
   
-  .header__profile {
-    height: 5rem;
-  }
 
   .main-section-container {
 
     display: grid;
-    grid-template-columns: 2fr 300px;
+    grid-template-columns: 2fr 500px;
     margin: 0;
     margin-bottom: 1rem;
 
