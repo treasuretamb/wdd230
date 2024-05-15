@@ -50,5 +50,10 @@
     font-size: var(--size-7xl);
   }  
 
+  .main-section-container {
+    display: grid;
+    grid-template-columns: 1fr 500px;
+    gap: .5rem;
+  }
 
 }
