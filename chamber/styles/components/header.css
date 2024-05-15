@@ -1,11 +1,57 @@
 
+.header__logo-area {
+  display: flex;
+  gap: .5em;
+  width: 65px;
+  justify-content: flex-start;
+}
+
+.header__logo {
+  display: block;
+}
+
+.header__heading {
+  color: var(--clr-teal-dark2);
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  position: relative;
+  z-index: 9999;
+}
+
+.header__menu {
+  display: none;
+}
+
+.header__bars {
+  color: var(--clr-teal-dark2);
+  width: var(--size-2xl);
+  height: var(--size-2xl);
+  display: block;
+}
+
+nav ul {
+  display: flex;
+  justify-content: flex-end;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+
 
 /* md */
-/* @media (min-width: 768px) {
+@media (min-width: 768px) {
 
   .header__menu {
     display: flex;
     align-items: center;
+
     list-style: none;
     padding: 0;
     gap: 2em;
@@ -13,18 +59,17 @@
   }
   
   .header__link a {
-    font-size: var(--size-xs);
     text-decoration: none;
     font-weight: 600;
-    color: var(--clr-stone600);
+    font-size: var(--size-sm);
+    color: var(--clr-teal-dark2);
     letter-spacing: -0.05em;
-    transition: color 0.4s; */
-    /* transition: border-bottom 0.4s; */
-  /* }
+    transition: color 0.4s;
+  }
   
   .header__link a:hover {
-    color: var(--clr-cyan);
-    border-bottom: 3px solid var(--clr-cyan);
+    color: var(--clr-orange1);
+    border-bottom: 3px solid var(--clr-orange1);
   }
   
   .header__line {
@@ -34,13 +79,11 @@
   
   .header__sun {
     display: block;
-    color: var(--clr-stone600);
+    color: var(--clr-teal-dark2);
     width: var(--size-base);
     height: var(--size-base);
     background: transparent;
   }
-  
-
 
   .svg {
     transition: fill 4s;
@@ -48,7 +91,7 @@
   
   .svg:hover {
     background: transparent;
-    fill: var(--clr-orange1);
+    fill: orange;
     transition: fill 0.6s;
   }
   
@@ -66,39 +109,23 @@
   }
 
 
-} */
+}
 
 /* lg */
-/* @media (min-width: 1024px) {
+@media (min-width: 1024px) {
   .header__link a {
-    font-size: var(--size-s);
+    font-size: var(--size-sm);
 
   }
   
   .header__sun {
-    display: block;
-    color: var(--clr-stone600);
     width: var(--size-xl);
     height: var(--size-xl);
-    background: transparent;
   }
   
   
   .header__resume {
     font-size: var(--size-sm);
   }
-} */
+}
 
-/* xl */
-/* @media (min-width: 1280px) {
-  .container {
-    max-width: 1280px;
-  }
-} */
-
-/* 2xl */
-/* @media (min-width: 1536px) {
-  .container {
-    max-width: 1536px;
-  }
-}  */

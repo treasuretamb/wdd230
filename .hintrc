@@ -26,7 +26,8 @@
       "default",
       {
         "ignore": [
-          "text-size-adjust"
+          "text-size-adjust",
+          "min-width: fit-content"
         ]
       }
     ],
