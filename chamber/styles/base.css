@@ -1,7 +1,7 @@
 /* style */
 :root {
-  --clr-dark: #001313;
-  --clr-light: #F0F0F0;
+  --clr-dark: #F0F0F0;
+  --clr-light: #001313;
   --clr-grey: rgb(191, 185, 182);
   --clr-teal-dark: #014f4f;
   --clr-teal-dark2: #F0F0F0;
@@ -45,15 +45,15 @@ html {
 }
 
 .light-mode {
-  --clr-light: #001313;
-  --clr-dark: #F0F0F0;
+  --clr-light: #F0F0F0;
+  --clr-dark: #001313;
   --clr-teal-dark2: #013939;
 }
 
 body {
   font-family: 'Satoshi', sans-serif;
-  background-color: var(--clr-dark);
-  color: var(--clr-light);
+  background-color: var(--clr-light);
+  color: var(--clr-teal-dark2);
 }
 
 img,
