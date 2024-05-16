@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Responsive Images</title>
+  <meta name="author" content="Treasure Tambwanaye">
+  <meta name="description" content="Treasure Tambwanaye WDD 230 Web Frontend Development">
+
+  <link rel="stylesheet" href="styles/responsive-images.css">
+
+</head>
+
+<body>
+
+  <main>
+    <div class="hero">
+      <picture>
+        <source media="(min-width: 500px)" srcset="images/hero-small.webp">
+        <source media="(min-width: 1000px)" srcset="images/hero-medium.webp">
+        <img src="images/hero-large.webp" alt="table setting" width="1500px" height="750px">
+      </picture>
+    </div>
+  </main>
+  
+</body>
+</html>
