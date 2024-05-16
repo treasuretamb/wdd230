@@ -1,0 +1,52 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: grid;
+  justify-content: center;
+  text-align: center;
+  background-color: rgb(199, 217, 202);
+  gap: 1rem;
+}
+
+h1 {
+  color: rgb(142, 73, 66);
+  text-decoration: underline;
+  font-weight: 900;
+  background-color: rgba(0, 0, 0, 0.052);
+  border-radius: 5px;
+  margin: 1rem;
+  padding-block: .5rem;
+  
+}
+
+img {
+  display: block;
+  width: 400px;
+  height: 600px;
+  margin-block: 2rem;
+  border-radius: 10px;
+  border: 2px solid rgba(250, 128, 114, 0.467);
+  object-fit: cover;
+  box-shadow: 2px 2px 10px grey;
+}
+
+.lazy {
+  opacity: 0;
+  transition: opacity 2s;
+}
+
+.lazy.loaded {
+  opacity: 1;
+}
+
+footer {
+  text-align: center;
+  color: rgb(142, 73, 66);
+  font-weight: 600;
+  font-size: small;
+  padding-bottom: 1rem;
+}

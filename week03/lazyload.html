@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Lazy Loading</title>
+  <meta name="author" content="Treasure Tambwanaye">
+  <meta name="description" content="Treasure Tambwanaye WDD 230 Web Frontend Development">
+
+  <link rel="stylesheet" href="styles/lazyload.css">
+</head>
+
+<body>
+
+  <header>
+
+    <h1 class="header-heading">
+      Lazy Loading...
+    </h1>
+
+  </header>
+
+  <main>
+
+    <img src="images/portrait.webp" alt="">
+    <img class="lazy" data-src="images/portrait.webp" alt="" loading="lazy">
+    <img class="lazy" data-src="images/portrait.webp" alt="" loading="lazy">
+    <img class="lazy" data-src="images/portrait.webp" alt="" loading="lazy">
+    <img class="lazy" data-src="images/portrait.webp" alt="" loading="lazy">
+    <img class="lazy" data-src="images/portrait.webp" alt="" loading="lazy">
+    
+
+  </main>
+
+  <footer>
+
+    <div class="footer__info">
+      <p class="footerParagraph" id="lazyLoad">
+        &copy;<span id="currentYearPlaceholder"></span>
+      </p>
+      <p>   
+        <b>Treasure Tambwanaye</b>
+      </p>
+      <p>
+         WDD 230 Project
+      </p>
+      <p>
+      <span  class="lastModified"></span>
+      </p>
+    </div>
+  
+
+  </footer>
+  
+  <script type="module" src="scripts/lazyLoad.js"></script>
+
+</body>
+</html>
