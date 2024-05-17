@@ -16,6 +16,44 @@ document.addEventListener('DOMContentLoaded', function() {
   lastModifiedParagraph.textContent = `Last Modified: ${lastModified}`;
 });
 
+// Check if the browser supports the 'loading' attribute
+if ('loading' in HTMLIFrameElement.prototype) {
+  // If supported, set the 'loading' attribute to 'lazy'
+  document.getElementById('myMapIframe').loading = 'lazy';
+};
+
+
+
+  // Check if the visitor count exists in local storage
+  if(localStorage.getItem('visitorCount')) {
+    // If it exists, increment the count
+    let count = parseInt(localStorage.getItem('visitorCount'));
+    count++;
+    localStorage.setItem('visitorCount', count);
+  } else {
+    // If it doesn't exist, set the count to 1
+    localStorage.setItem('visitorCount', 1);
+  }
+
+
+
+
+    // Fetch weather data from OpenWeatherMap API
+    fetch('https://api.openweathermap.org/data/2.5/weather?q=Johannesburg&appid=e61d2f95daaf18002300230b3de6ec56&units=metric')
+    .then(response => response.json())
+    .then(data => {
+      // Display weather information wherever you want in your HTML
+      document.getElementById('weather').innerText = `Temperature: ${data.main.temp}°C, Description: ${data.weather[0].description}`;
+    })
+    .catch(error => console.error('Error fetching weather data:', error));
+
+
+
+  
+
+  // Display the visitor count wherever you want in your HTML
+  document.getElementById('visitorCount').innerText = localStorage.getItem('visitorCount');
+
 const darkMode = () => {
   const headerThemeToggleBtn = document.getElementById('header-theme-toggle');
   const mobileThemeToggleBtn = document.getElementById('mobile-theme-toggle');

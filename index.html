@@ -37,7 +37,7 @@
       <section class="header__profile">
         <div class="header__profile-content">
           <a href="https://treasuretamb.github.io/wdd230/">
-            <img class="header__profile-picture" src="images/treasure-profile-picture-cropped.jpg" alt="Treasure's Profile">
+            <img class="header__profile-picture" src="images/treasure-profile-picture-cropped.webp" alt="Treasure's Profile">
           </a>
           <h2 id="name" class="profile-heading">
               Treasure Tambwanaye
@@ -141,10 +141,16 @@
     <main>
 
       <div class="hero container">
+
         <picture>
           <source class="hero-image" media="(max-width: 400px)" srcset="images/home-hero-small.webp">
-          <img class="hero-image" src="images/home-hero-large.webp" alt="table setting" width="1500px" height="auto">
+          <img class="hero-image" src="images/home-hero-large.webp" alt="table setting" width="1500" height="auto">
         </picture>
+
+        <div class="herolabel">
+          <p>Johannesburg Temple</p>
+        </div>
+  
       </div>
 
       <section class="main-section container">
@@ -162,24 +168,24 @@
 
             <ul class="section2-ul">
               <li><a href="https://treasuretamb.github.io/wdd230/week01">
-                <b>Week 01:</b> 
+                <b>Week 01:</b> </a>
                 <a class="card-links" href="https://treasuretamb.github.io/wdd230/week01/chamber-site-plan.html"> Chamber Site Plan</a> |
                 <a class="card-links" href="https://treasuretamb.github.io/wdd230/week01/holygrail.html">CSS Layout Review</a> |
                 <a class="card-links" href="https://treasuretamb.github.io/wdd230/week01/media-query.html">Media Query</a>
-              </a></li>
+              </li>
               <li><a href="https://treasuretamb.github.io/wdd230/week02/">
-                <b>Week 02:</b> 
+                <b>Week 02:</b> </a>
                 <a class="card-links" href="https://treasuretamb.github.io/wdd230/week01/bom.html">DOM Manipulation</a> |
                 <a class="card-links" href="https://treasuretamb.github.io/wdd230/week01/design.html">Design</a>
-              </a></li>
+              </li>
               <li><a href="https://treasuretamb.github.io/wdd230/week03/">
-               <b> Week 03:</b>
+               <b> Week 03:</b></a>
                 <a class="card-links" href="week03/images/landscape.webp">WebP</a> |
                 <a class="card-links" href="https://treasuretamb.github.io/wdd230/week03/bom.html">Web Storage API - localStorage</a> |
                 <a class="card-links" href="https://treasuretamb.github.io/wdd230/week03/lazyload.html">Lazy Loading</a> |
                 <a class="card-links" href="https://treasuretamb.github.io/wdd230/week03/responsive-images.html">Responsive Images</a> 
 
-              </a></li>
+              </li>
               <li><a href="">
                 <b>Week 04:</b> 
               </a></li>
@@ -197,15 +203,21 @@
             <h3 class="info">
               Information
             </h3>
+            <p class="card2-paragraph" id="weather">
+              Loading weather...
+            </p>
             <p class="card2-paragraph">
-              Lorem. ipsum dolor sit, amet consectetur adipisicing elit. Vero, 
-              sequi, deleniti error quisquam.
+              <b>Visitor Count:</b> <span id="visitorCount"></span>
             </p>
           </div>
         </div>
       </section>
 
     </main>
+
+    <div class="map container">
+    <iframe id="myMapIframe" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14788.785031761547!2d28.049593171196697!3d-26.192857875602176!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1e950c26961321e7%3A0x35bd90c758094153!2sHillbrow%2C%20Johannesburg%2C%202001!5e0!3m2!1sen!2sza!4v1715912935271!5m2!1sen!2sza" title="Hillbrow" width="400" height="350" allowfullscreen="" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>  
 
     <footer class="container">
 

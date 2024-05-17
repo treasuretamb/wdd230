@@ -1,9 +1,29 @@
-
+.hero {
+	margin-top: 0;
+	position: relative;
+}
 
 .hero-image {
   border-radius: 0 0 5px 5px;
   object-fit: cover;
 }
+
+.herolabel {
+	position: absolute;
+	top: 30px;
+	right: 30px;
+	border: 1px solid rgba(119, 46, 0, 0.75);
+  border-radius: 4px;
+	padding: 1rem;
+	box-shadow: 0 0 3rem #fff;
+	background-color: #36529471;
+  color: white;
+  font-weight: 800;
+  font-size: large;
+  text-shadow: 1px 1px 8px rgba(0, 0, 0, 0.76);
+}
+
+
 
 .main-heading {
   text-align: center;
@@ -42,7 +62,7 @@
   border: 1px solid var(--clr-orange);
   background-color: transparent;
   height: 20rem;
-  margin-bottom: 1rem;
+  margin-bottom: 0;
   color: var(--clr-navy);
   overflow: auto;
 }
@@ -64,4 +84,16 @@ h3 {
 .card2-paragraph {
   padding: 1rem;
   margin-top: 1rem;
+}
+
+.map {
+  display: grid;
+  place-content: center;
+  margin-bottom: 1rem;
+}
+
+iframe {
+  border: 1px solid var(--clr-orange);
+  border-radius: 5px;
+  box-shadow: 1px 1px 5px #a0613dbc;
 }
