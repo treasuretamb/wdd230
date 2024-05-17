@@ -141,8 +141,6 @@ button {
   margin-bottom: 0;
   position: relative;
   z-index: 9999;
-  border: 1px solid var(--clr-orange);
-  border-radius: 0 0 5px 5px;
   padding: 0;
   
 }

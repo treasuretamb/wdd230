@@ -140,7 +140,14 @@
 
     <main>
 
-      <section class="main-section">
+      <div class="hero container">
+        <picture>
+          <source class="hero-image" media="(max-width: 400px)" srcset="images/home-hero-small.webp">
+          <img class="hero-image" src="images/home-hero-large.webp" alt="table setting" width="1500px" height="auto">
+        </picture>
+      </div>
+
+      <section class="main-section container">
         
         <h1 class="main-heading">
           WDD 230: Web Frontend Development
@@ -155,13 +162,23 @@
 
             <ul class="section2-ul">
               <li><a href="https://treasuretamb.github.io/wdd230/week01">
-                Week 01: Layout|Media Query|JS Pen
+                Week 01: 
+                <a class="card-links" href="https://treasuretamb.github.io/wdd230/week01/chamber-site-plan.html"> Chamber Site Plan</a> |
+                <a class="card-links" href="https://treasuretamb.github.io/wdd230/week01/holygrail.html">CSS Layout Review</a> |
+                <a class="card-links" href="https://treasuretamb.github.io/wdd230/week01/media-query.html">Media Query</a>
               </a></li>
               <li><a href="https://treasuretamb.github.io/wdd230/week02/">
                 Week 02: 
+                <a class="card-links" href="https://treasuretamb.github.io/wdd230/week01/bom.html">DOM Manipulation</a> |
+                <a class="card-links" href="https://treasuretamb.github.io/wdd230/week01/design.html">Design</a>
               </a></li>
               <li><a href="https://treasuretamb.github.io/wdd230/week03/">
-                Week 03: <a href="week03/images/landscape.webp">WebP</a>
+                Week 03:
+                <a class="card-links" href="week03/images/landscape.webp">WebP</a> |
+                <a class="card-links" href="https://treasuretamb.github.io/wdd230/week03/bom.html">Web Storage API - localStorage</a> |
+                <a class="card-links" href="https://treasuretamb.github.io/wdd230/week03/lazyload.html">Lazy Loading</a> |
+                <a class="card-links" href="https://treasuretamb.github.io/wdd230/week03/responsive-images.html">Responsive Images</a> 
+
               </a></li>
               <li><a href="">
                 Week 04: 
@@ -190,7 +207,7 @@
 
     </main>
 
-    <footer>
+    <footer class="container">
 
       <p id="footer" class="footerParagraph">
         &copy;<span id="currentYearPlaceholder"></span> | Treasure Tambwanaye | South Africa
