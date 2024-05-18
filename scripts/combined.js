@@ -54,6 +54,8 @@ if ('loading' in HTMLIFrameElement.prototype) {
   // Display the visitor count wherever you want in your HTML
   document.getElementById('visitorCount').innerText = localStorage.getItem('visitorCount');
 
+  
+
 const darkMode = () => {
   const headerThemeToggleBtn = document.getElementById('header-theme-toggle');
   const mobileThemeToggleBtn = document.getElementById('mobile-theme-toggle');

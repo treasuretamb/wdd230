@@ -5,7 +5,7 @@
 
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Treasure Tambwanaye - WDD 230 - Web Frontend Development</title>
+    <title>Treasure Tambwanaye - WDD 230 - Web Frontend Development Form</title>
     <meta name="author" content="Treasure Tambwanaye">
     <meta name="description" content="Treasure Tambwanaye WDD 230 Web Frontend Development">
   
@@ -21,9 +21,8 @@
     <link rel="stylesheet" href="styles/normalize.css">
     <link rel="stylesheet" href="styles/base.css">
     <link rel="stylesheet" href="styles/larger.css">
-    <link rel="stylesheet" href="styles/components/main-section.css">
+    <link rel="stylesheet" href="styles/form.css">
     
-
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap" rel="stylesheet">
@@ -36,9 +35,6 @@
 
       <section class="header__profile">
         <div class="header__profile-content">
-          <a href="https://treasuretamb.github.io/wdd230/">
-            <img class="header__profile-picture" src="images/treasure-profile-picture-cropped.webp" alt="Treasure's Profile">
-          </a>
           <h2 id="name" class="profile-heading">
               Treasure Tambwanaye
           </h2>
@@ -140,84 +136,28 @@
 
     <main>
 
-      <div class="hero container">
+      <h2>Simple Form</h2>
+      <form method="get" action="record.html">
+          <label for="username">Username:</label>
+          <input type="text" id="username" name="username" required>
 
-        <picture>
-          <source class="hero-image" media="(max-width: 400px)" srcset="images/home-hero-small.webp">
-          <img class="hero-image" src="images/home-hero-large.webp" alt="table setting" width="1500" height="auto">
-        </picture>
+          <label for="password">Password:</label>
+          <input type="password" id="password" name="password" pattern="[a-zA-Z0-9]{8,}" required title="Password must be at least 8 characters long and contain only alphanumeric characters">
 
-        <div class="herolabel">
-          <p>Johannesburg Temple</p>
-        </div>
-  
-      </div>
+          <label for="confirm_password">Confirm Password:</label>
+          <input type="password" id="confirm_password" name="confirm_password" required>
 
-      <section class="main-section container">
-        
-        <h1 class="main-heading">
-          WDD 230: Web Frontend Development
-        </h1>
-        
-        <div class="main-section-container">
-          <div class="card">
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" pattern="[a-zA-Z0-9._%+-]+@byui\.edu$" required title="Please enter a valid email address">
 
-            <h3 class="info">
-              Learning Activities
-            </h3>
+          <label for="page_rating">Page Rating:</label>
+          <input type="range" id="page_rating" name="page_rating" min="1" max="10" step="1" oninput="this.nextElementSibling.value = this.value">
+          <output>5</output>
 
-            <ul class="section2-ul">
-              <li><a href="https://treasuretamb.github.io/wdd230/week01">
-                <b>Week 01:</b> </a>
-                <a class="card-links" href="https://treasuretamb.github.io/wdd230/week01/chamber-site-plan.html"> Chamber Site Plan</a> |
-                <a class="card-links" href="https://treasuretamb.github.io/wdd230/week01/holygrail.html">CSS Layout Review</a> |
-                <a class="card-links" href="https://treasuretamb.github.io/wdd230/week01/media-query.html">Media Query</a>
-              </li>
-              <li><a href="https://treasuretamb.github.io/wdd230/week02/">
-                <b>Week 02:</b> </a>
-                <a class="card-links" href="https://treasuretamb.github.io/wdd230/week01/bom.html">DOM Manipulation</a> |
-                <a class="card-links" href="https://treasuretamb.github.io/wdd230/week01/design.html">Design</a>
-              </li>
-              <li><a href="https://treasuretamb.github.io/wdd230/week03/">
-               <b> Week 03:</b></a>
-                <a class="card-links" href="week03/images/landscape.webp">WebP</a> |
-                <a class="card-links" href="https://treasuretamb.github.io/wdd230/week03/bom.html">Web Storage API - localStorage</a> |
-                <a class="card-links" href="https://treasuretamb.github.io/wdd230/week03/lazyload.html">Lazy Loading</a> |
-                <a class="card-links" href="https://treasuretamb.github.io/wdd230/week03/responsive-images.html">Responsive Images</a> 
-
-              </li>
-              <li><a href="">
-                <b>Week 04:</b> 
-              </a></li>
-              <li><a href="">
-                <b>Week 05:</b> 
-              </a></li>
-              <li><a href="">
-                <b>Week 06:</b> 
-              </a></li>
-            </ul>
-
-          </div>
-
-          <div class="card">
-            <h3 class="info">
-              Information
-            </h3>
-            <p class="card2-paragraph" id="weather">
-              Loading weather...
-            </p>
-            <p class="card2-paragraph">
-              <b>Visitor Count:</b> <span id="visitorCount"></span>
-            </p>
-          </div>
-        </div>
-      </section>
+          <button class="form-btn btn" type="submit">Submit</button>
+      </form>
 
     </main>
-
-    <div class="map container">
-    <iframe id="myMapIframe" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14788.785031761547!2d28.049593171196697!3d-26.192857875602176!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1e950c26961321e7%3A0x35bd90c758094153!2sHillbrow%2C%20Johannesburg%2C%202001!5e0!3m2!1sen!2sza!4v1715912935271!5m2!1sen!2sza" title="Hillbrow" width="400" height="350" allowfullscreen="" referrerpolicy="no-referrer-when-downgrade"></iframe>
-    </div>  
 
     <footer class="container">
 
@@ -231,6 +171,7 @@
     </footer>
 
     <script type="module" src="scripts/combined.js"></script>
+    <script type="module" src="scripts/form.js"></script>
 
 
   </body>
