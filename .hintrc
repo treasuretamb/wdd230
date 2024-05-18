@@ -27,7 +27,8 @@
       {
         "ignore": [
           "text-size-adjust",
-          "min-width: fit-content"
+          "min-width: fit-content",
+          "backdrop-filter"
         ]
       }
     ],

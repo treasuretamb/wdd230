@@ -1,0 +1,14 @@
+main {
+  text-align: center;
+}
+
+.welcome-p {
+  font-weight: 600;
+  margin-block: .5rem;
+  color: var(--clr-teal);
+}
+
+.main__first-section {
+  display: grid;
+  text-align: center;
+}
