@@ -1,0 +1,53 @@
+[
+  {
+    "family_name": "Dlamini",
+    "move_in_date": "2024-05-20",
+    "family_size": 4,
+    "visited_by_bishopric": true,
+    "members": [
+      {
+        "name": "James Dlamini",
+        "gender": "Male",
+        "birthdate": "1990-02-15"
+      },
+      {
+        "name": "Lerato Dlamini",
+        "gender": "Female",
+        "birthdate": "1992-08-23"
+      },
+      {
+        "name": "Jacob Dlamini",
+        "gender": "Male",
+        "birthdate": "2010-04-10"
+      },
+      {
+        "name": "Zinhle Dlamini",
+        "gender": "Female",
+        "birthdate": "2015-11-30"
+      }
+    ]
+  },
+  {
+    "family_name": "Booi",
+    "move_in_date": "2024-05-22",
+    "family_size": 3,
+    "visited_by_bishopric": false,
+    "members": [
+      {
+        "name": "Silas Booi",
+        "gender": "Male",
+        "birthdate": "1985-07-20"
+      },
+      {
+        "name": "Ongezwa Booi",
+        "gender": "Female",
+        "birthdate": "1987-03-12"
+      },
+      {
+        "name": "Luke Booi",
+        "gender": "Male",
+        "birthdate": "2012-09-05"
+      }
+    ]
+  }
+]

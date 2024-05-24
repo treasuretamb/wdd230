@@ -1,0 +1,94 @@
+{
+  "weeks": [
+    {
+      "week": "Week 1",
+      "links": [
+        {
+          "url": "week01/chamber-site-plan.html",
+          "title": "Chamber Site Plan"
+        },
+        {
+          "url": "week01/holygrail.html",
+          "title": "CSS Layout Review"
+        },
+        {
+          "url": "week01/media-query.html",
+          "title": "Media Query"
+        }
+      ]
+    },
+    {
+      "week": "Week 2",
+      "links": [
+        {
+          "url": "week02/bom.html",
+          "title": "DOM Manipulation"
+        },
+        {
+          "url": "week02/design.html",
+          "title": "Design"
+        }
+      ]
+    },
+    {
+      "week": "Week 3",
+      "links": [
+        {
+          "url": "week03/images/landscape.webp",
+          "title": "WebP"
+        },
+        {
+          "url": "week03/bom.html",
+          "title": "Web Storage API - localStorage"
+        },
+        {
+          "url": "week03/lazyload.html",
+          "title": "Lazy Loading"
+        },
+        {
+          "url": "week03/responsive-images.html",
+          "title": "Responsive Images"
+        }
+      ]
+    },
+    {
+      "week": "Week 4",
+      "links": [
+        {
+          "url": "",
+          "title": ""
+        }
+      ]
+    },
+    {
+      "week": "Week 5",
+      "links": [
+        {
+          "url": "week05/pseudo-elements.html",
+          "title": "Pseudo-elements"
+        },
+        {
+          "url": "week05/new-ward-members.json",
+          "title": "Working with JSON data"
+        },
+        {
+          "url": "week05/fetch-api.html",
+          "title": "The Fetch API"
+        },
+        {
+          "url": "week05/weather.html",
+          "title": "Consuming a third-party weather API"
+        }
+      ]
+    },
+    {
+      "week": "Week 6",
+      "links": [
+        {
+          "url": "",
+          "title": ""
+        }
+      ]
+    }
+  ]
+}
