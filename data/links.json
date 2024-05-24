@@ -1,59 +1,63 @@
 {
   "weeks": [
     {
-      "week": "Week 1",
+      "week": "Week 01",
       "links": [
         {
           "url": "week01/chamber-site-plan.html",
-          "title": "Chamber Site Plan"
+          "title": " Chamber Site Plan"
         },
         {
           "url": "week01/holygrail.html",
-          "title": "CSS Layout Review"
+          "title": " CSS Layout Review"
         },
         {
           "url": "week01/media-query.html",
-          "title": "Media Query"
+          "title": " Media Query"
         }
       ]
     },
     {
-      "week": "Week 2",
+      "week": "Week 02",
       "links": [
         {
           "url": "week02/bom.html",
-          "title": "DOM Manipulation"
+          "title": " DOM Manipulation"
         },
         {
           "url": "week02/design.html",
-          "title": "Design"
+          "title": " Design"
         }
       ]
     },
     {
-      "week": "Week 3",
+      "week": "Week 03",
       "links": [
         {
           "url": "week03/images/landscape.webp",
-          "title": "WebP"
+          "title": " WebP"
         },
         {
-          "url": "week03/bom.html",
-          "title": "Web Storage API - localStorage"
+          "url": "https://treasuretamb.github.io/wdd230/week03/bom.html",
+          "title": " Web Storage API - localStorage"
         },
         {
-          "url": "week03/lazyload.html",
-          "title": "Lazy Loading"
+          "url": "https://treasuretamb.github.io/wdd230/week03/lazyload.html",
+          "title": " Lazy Loading"
         },
         {
-          "url": "week03/responsive-images.html",
-          "title": "Responsive Images"
+          "url": "https://treasuretamb.github.io/wdd230/week03/responsive-images.html",
+          "title": " Responsive Images"
         }
       ]
     },
     {
-      "week": "Week 4",
+      "week": "Week 04",
       "links": [
+        {
+          "url": "",
+          "title": ""
+        },
         {
           "url": "",
           "title": ""
@@ -61,29 +65,46 @@
       ]
     },
     {
-      "week": "Week 5",
+      "week": "Week 05",
       "links": [
         {
-          "url": "week05/pseudo-elements.html",
-          "title": "Pseudo-elements"
+          "url": "https://codepen.io/treasuretamb/pen/vYwKPZZ",
+          "title": " Pseudo-elements"
         },
         {
-          "url": "week05/new-ward-members.json",
-          "title": "Working with JSON data"
+          "url": "https://treasuretamb.github.io/wdd230/week05/new-ward-members.json",
+          "title": " Working with JSON data"
         },
         {
-          "url": "week05/fetch-api.html",
-          "title": "The Fetch API"
+          "url": "https://treasuretamb.github.io/wdd230/week05/prophets.html",
+          "title": " The Fetch API"
         },
         {
-          "url": "week05/weather.html",
-          "title": "Consuming a third-party weather API"
+          "url": "https://treasuretamb.github.io/wdd230/week05/weather.html",
+          "title": " Consuming a third-party weather API"
         }
       ]
     },
     {
-      "week": "Week 6",
+      "week": "Week 06",
       "links": [
+        {
+          "url": "",
+          "title": ""
+        },
+        {
+          "url": "",
+          "title": ""
+        }
+      ]
+    },
+    {
+      "week": "Week 07",
+      "links": [
+        {
+          "url": "",
+          "title": ""
+        },
         {
           "url": "",
           "title": ""
