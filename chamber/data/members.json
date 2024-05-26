@@ -1,0 +1,76 @@
+{
+  "members": [
+    {
+      "name": "Digital Network Technology",
+      "address": "123 Main St, Fairbridge, South Africa",
+      "phone": "+2773-456-7890",
+      "website": "http://digitalnetwork.com",
+      "image": "company1.jpg",
+      "membershipLevel": "Gold"
+    },
+    {
+      "name": "Diamond Heart",
+      "address": "56 Eloff St, Fairbridge, South Africa",
+      "phone": "+2774-567-8901",
+      "website": "http://diamondheart.com",
+      "image": "company2.jpg",
+      "membershipLevel": "Silver"
+    },
+    {
+      "name": "Karolina Clair",
+      "address": "89 Oak St, Fairbridge, South Africa",
+      "phone": "+2775-678-9012",
+      "website": "http://karolinaclair.com",
+      "image": "company3.jpg",
+      "membershipLevel": "Platinum"
+    },
+    {
+      "name": "Rimberio CMA",
+      "address": "101 Pine St, Fairbridge, South Africa",
+      "phone": "+2776-789-0123",
+      "website": "http://rimberiocma.com",
+      "image": "company4.jpg",
+      "membershipLevel": "Bronze"
+    },
+    {
+      "name": "Benjamin Shah",
+      "address": "20 Maple St, Fairbridge, South Africa",
+      "phone": "+2777-890-1234",
+      "website": "http://benjaminshah.com",
+      "image": "company5.jpg",
+      "membershipLevel": "Gold"
+    },
+    {
+      "name": "Mountain Adventure",
+      "address": "33 Cedar St, Fairbridge, South Africa",
+      "phone": "+2778-901-2345",
+      "website": "http://mountainadventure.com",
+      "image": "company6.jpg",
+      "membershipLevel": "Silver"
+    },
+    {
+      "name": "Miriam Maxeke",
+      "address": "7 Smit St, Fairbridge, South Africa",
+      "phone": "+2779-012-3456",
+      "website": "http://miriammaxeke.com",
+      "image": "company7.jpg",
+      "membershipLevel": "Platinum"
+    },
+    {
+      "name": "Creative Technology",
+      "address": "404 Ghandi St, Fairbridge, South Africa",
+      "phone": "+2779-012-3456",
+      "website": "http://creativetechnology.com",
+      "image": "company8.jpg",
+      "membershipLevel": "Platinum"
+    },
+    {
+      "name": "Stein Technology Company",
+      "address": "40 Birch St, Fairbridge, South Africa",
+      "phone": "+2779-012-3456",
+      "website": "http://steintechcompany.com",
+      "image": "company9.jpg",
+      "membershipLevel": "Platinum"
+    }
+  ]
+}

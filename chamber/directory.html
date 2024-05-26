@@ -3,28 +3,28 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Fairbridge Chamber Of Commerce Discover</title>
+  <title>Fairbridge Chamber Of Commerce Directory</title>
   <meta name="author" content="Treasure Tambwanaye">
-  <meta name="description" content="Fairbridge Chamber Of Commerce Discover">
+  <meta name="description" content="Fairbridge Chamber Of Commerce Directory">
 
   <link rel="icon" href="images/favicon.ico" type="image/x-icon">
 
   <meta property="og:type" content="website">
-  <meta property="og:url" content="https://treasuretamb.github.io/wdd230/chamber/discover.html">
+  <meta property="og:url" content="https://treasuretamb.github.io/wdd230/chamber/directory.html">
   <meta property="og:title" content="Treasure Tambwanaye">
   <meta property="og:image" content="https://treasuretamb.github.io/wdd230/chamber/images/banner-image.jpg">
-  <meta property="og:description" content="Fairbridge Chamber Of Commerce Discover">
+  <meta property="og:description" content="Fairbridge Chamber Of Commerce Directory">
   <meta property="fb:app_id" content="#">
 
   <link rel="stylesheet" href="styles/normalize.css">
   <link rel="stylesheet" href="styles/base.css">
-  <link rel="stylesheet" href="styles/discover.css">
   <link rel="stylesheet" href="styles/larger.css">
   <link rel="stylesheet" href="styles/components/mobile-nav.css">
   <link rel="stylesheet" href="styles/components/header.css">
- 
-  <link rel="stylesheet" href="styles/components/discover-sidebar.css">
-  <link rel="stylesheet" href="styles/components/discover-gallery.css">
+  <link rel="stylesheet" href="styles/components/hero-section.css">
+  <link rel="stylesheet" href="styles/components/second-section.css">
+  <link rel="stylesheet" href="styles/components/third-section.css">
+  <link rel="stylesheet" href="styles/components/directory.css">
   <link rel="stylesheet" href="styles/components/footer.css">
 
 
@@ -59,7 +59,7 @@
         </li>
 
         <li class="header__link">
-          <a href="#directory">
+          <a href="https://treasuretamb.github.io/wdd230/chamber/directory.html">
             Directory
           </a>
         </li>
@@ -114,10 +114,10 @@
         <a class="mobile-nav__link" href="https://treasuretamb.github.io/wdd230/chamber/discover.html">Discover</a>
       </li>
       <li>
-        <a class="mobile-nav__link" href="#directory">Directory</a>
+        <a class="mobile-nav__link" href="https://treasuretamb.github.io/wdd230/chamber/directory.html">Directory</a>
       </li>
       <li>
-        <a class="mobile-nav__link" href="https://treasuretamb.github.io/wdd230/chamber/join.html">Join</a>
+        <a class="mobile-nav__link" href="https://treasuretamb.github.io/wdd230/chamber/join.html">join</a>
       </li>
       <li>
         <button id="mobile-theme-toggle" class="mobile-nav__sun">
@@ -142,101 +142,28 @@
   </div>
   <!-- end of mobile navigation -->
 
-  <main class="container">
+  <main class="container directory">
 
-    <p class="welcome-p" id="visit-message"></p>
+    
+    <section class="directory__container container">
 
-    <section class="main__first-section">
+      <h2 class="directory__heading">Business Directory</h2>
 
-      <aside class="sidebar">
-
-      
-        <br>
-        <h2>About Fairbridge</h2>
-        
-        <p>Fairbridge is a vibrant community known for its rich history, diverse culture, and thriving local businesses. Our Chamber of Commerce is dedicated to promoting economic development and enhancing the quality of life for all residents.</p>
-        
-        <h3>Demographics</h3>
-        <ul>
-            <li>Population: 11,000</li>
-            <li>Median Age: 34</li>
-            <li>Average Household Income: R18,000</li>
-        </ul>
-        
-        <h3>Upcoming Events</h3>
-        <ul>
-            <li>Farmers Market - Every Saturday</li>
-            <li>Annual Fairbridge Festival - June 20th</li>
-            <li>Business Networking Event - July 15th</li>
-        </ul>
-        
-        <h3>Local Attractions</h3>
-        <ul>
-            <li>Fairbridge Park</li>
-            <li>Historic Grounds</li>
-            <li>Artisan Market</li>
-        </ul>
-
-      </aside>
-
-
-      <div class="gallery">
-
-        <h2>Gallery</h2>
-
-        <div class="image-item">
-          <picture>
-            <source media="(min-width: 678px)" srcset="images/national-park-1-small.webp">
-            <img class="lazy" data-src="images/national-park-1-small.webp" alt="Fairbridge Park" width="600" height="auto">
-          </picture>
-          <p>Fairbridge Park</p>
-        </div>
-
-        <div class="image-item">
-          <picture>
-            <source media="(min-width: 678px)" srcset="images/historical-place-1-small.webp">
-            <img class="lazy" data-src="images/historical-place-1.webp" alt="Historic Downtown" width="600" height="auto">
-          </picture>
-          <p>Historic Grounds</p>
-        </div>
-
-        <div class="image-item">
-          <picture>
-            <source media="(min-width: 678px)" srcset="images/artisan-1-small.webp">
-            <img class="lazy" data-src="images/artisan-1.webp" alt="Artisan Market" width="600" height="auto">
-          </picture>
-          <p>Artisan Market</p>
-        </div>
-
-        <div class="image-item">
-          <picture>
-            <source media="(min-width: 678px)" srcset="images/farmers-market-1-small.webp">
-            <img class="lazy" data-src="images/farmers-market-1.webp" alt="Farmers Market" width="600" height="auto">
-          </picture>
-          <p>Farmer's Market</p>
-        </div>
-
-        <div class="image-item">
-          <picture>
-            <source media="(min-width: 678px)" srcset="images/festival-1-1-small.webp">
-            <img class="lazy" data-src="images/festival-1-1.webp" alt="Fairbridge Festival" width="600" height="auto">
-          </picture>
-          <p>Fairbridge Festival</p>
-        </div>
-
-        <div class="image-item">
-          <picture>
-            <source media="(min-width: 678px)" srcset="images/business-networking-1-small.webp">
-            <img class="lazy" data-src="images/business-networking-1.webp" alt="Business Networking" width="600" height="auto">
-          </picture>
-          <p>Business Networking</p>
-        </div>
-
+      <div class="directory__toggle">
+        <button id="grid" class="directory__grid-view" aria-label="grid view">
+          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M3.375 19.5h17.25m-17.25 0a1.125 1.125 0 0 1-1.125-1.125M3.375 19.5h7.5c.621 0 1.125-.504 1.125-1.125m-9.75 0V5.625m0 12.75v-1.5c0-.621.504-1.125 1.125-1.125m18.375 2.625V5.625m0 12.75c0 .621-.504 1.125-1.125 1.125m1.125-1.125v-1.5c0-.621-.504-1.125-1.125-1.125m0 3.75h-7.5A1.125 1.125 0 0 1 12 18.375m9.75-12.75c0-.621-.504-1.125-1.125-1.125H3.375c-.621 0-1.125.504-1.125 1.125m19.5 0v1.5c0 .621-.504 1.125-1.125 1.125M2.25 5.625v1.5c0 .621.504 1.125 1.125 1.125m0 0h17.25m-17.25 0h7.5c.621 0 1.125.504 1.125 1.125M3.375 8.25c-.621 0-1.125.504-1.125 1.125v1.5c0 .621.504 1.125 1.125 1.125m17.25-3.75h-7.5c-.621 0-1.125.504-1.125 1.125m8.625-1.125c.621 0 1.125.504 1.125 1.125v1.5c0 .621-.504 1.125-1.125 1.125m-17.25 0h7.5m-7.5 0c-.621 0-1.125.504-1.125 1.125v1.5c0 .621.504 1.125 1.125 1.125M12 10.875v-1.5m0 1.5c0 .621-.504 1.125-1.125 1.125M12 10.875c0 .621.504 1.125 1.125 1.125m-2.25 0c.621 0 1.125.504 1.125 1.125M13.125 12h7.5m-7.5 0c-.621 0-1.125.504-1.125 1.125M20.625 12c.621 0 1.125.504 1.125 1.125v1.5c0 .621-.504 1.125-1.125 1.125m-17.25 0h7.5M12 14.625v-1.5m0 1.5c0 .621-.504 1.125-1.125 1.125M12 14.625c0 .621.504 1.125 1.125 1.125m-2.25 0c.621 0 1.125.504 1.125 1.125m0 1.5v-1.5m0 0c0-.621.504-1.125 1.125-1.125m0 0h7.5" />
+          </svg>          
+          </button>
+        <button id="list" class="directory__list-view" aria-label="list view">
+          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M8.25 6.75h12M8.25 12h12m-12 5.25h12M3.75 6.75h.007v.008H3.75V6.75Zm.375 0a.375.375 0 1 1-.75 0 .375.375 0 0 1 .75 0ZM3.75 12h.007v.008H3.75V12Zm.375 0a.375.375 0 1 1-.75 0 .375.375 0 0 1 .75 0Zm-.375 5.25h.007v.008H3.75v-.008Zm.375 0a.375.375 0 1 1-.75 0 .375.375 0 0 1 .75 0Z" />
+          </svg>
+          </button>
       </div>
-      
+      <div id="directory" class="directory__grid"></div>
     </section>
-
-      
+    
   </main>
 
   <footer class="footer container">
@@ -283,9 +210,7 @@
   </footer>
 
   <script type="module" src="scripts/chamber.js"></script>
-  <script type="module" src="scripts/discover.js"></script>
-  <script type="module" src="scripts/visitMessage.js"></script>
-
+  <script type="module" src="scripts/directory.js"></script>
 
 </body>
 </html>
