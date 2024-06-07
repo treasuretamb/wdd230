@@ -332,7 +332,7 @@ input[type="submit"]:hover {
 
 .ad-section {
   text-align: center;
-  padding: 20px 0;
+  padding: 25px 0;
   border: 1px solid var(--clr-teal-border);
   margin-top: 10px;
   background-color: #ffb116c5;
