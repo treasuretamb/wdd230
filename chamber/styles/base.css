@@ -314,6 +314,30 @@ input[type="submit"]:hover {
   margin-bottom: 10px;
 }
 
+.banner-section {
+  color: var(--clr-orange1);
+  padding: 20px 10px;
+}
+
+
+.banner > p > button {
+  background-color: var(--clr-orange1);
+  color: var(--clr-teal-dark);
+  font-weight: bold;
+  border: 2px solid var(--clr-teal-dark);
+  border-radius: 4px;
+  padding:1px 5px;
+  text-align: center;
+}
+
+.ad-section {
+  text-align: center;
+  padding: 20px 0;
+  border: 1px solid var(--clr-teal-border);
+  margin-top: 10px;
+  background-color: #ffb116c5;
+}
+
 
 
 

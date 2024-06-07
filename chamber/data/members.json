@@ -62,7 +62,7 @@
       "phone": "+2779-012-3456",
       "website": "http://creativetechnology.com",
       "image": "company8.jpg",
-      "membershipLevel": "Platinum"
+      "membershipLevel": "Gold"
     },
     {
       "name": "Stein Technology Company",
@@ -70,7 +70,7 @@
       "phone": "+2779-012-3456",
       "website": "http://steintechcompany.com",
       "image": "company9.jpg",
-      "membershipLevel": "Platinum"
+      "membershipLevel": "Gold"
     }
   ]
 }
