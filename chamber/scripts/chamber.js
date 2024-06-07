@@ -12,6 +12,15 @@ document.addEventListener('DOMContentLoaded', function() {
   }
 });
 
+    // Fetch weather data from OpenWeatherMap API
+    fetch('https://api.openweathermap.org/data/2.5/weather?q=Johannesburg&appid=e61d2f95daaf18002300230b3de6ec56&units=metric')
+    .then(response => response.json())
+    .then(data => {
+      // Display weather information wherever you want in your HTML
+      document.getElementById('weather').innerText = `Temperature: ${data.main.temp}°C, Description: ${data.weather[0].description}`;
+    })
+    .catch(error => console.error('Error fetching weather data:', error));
+
 
 const darkMode = () => {
   const headerThemeToggleBtn = document.getElementById('header-theme-toggle');

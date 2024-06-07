@@ -55,12 +55,20 @@
       "week": "Week 04",
       "links": [
         {
-          "url": "",
-          "title": ""
+          "url": "https://codepen.io/treasuretamb/pen/zYQzyzm",
+          "title": "CSS Pseudo-classes"
         },
         {
-          "url": "",
-          "title": ""
+          "url": "week04/images/combinator-exercise.png",
+          "title": " Combinator Exercises"
+        },
+        {
+          "url": "https://treasuretamb.github.io/wdd230/week04/tablebuild.html",
+          "title": "HTML Tables for Data Presentation"
+        },
+        {
+          "url": "https://treasuretamb.github.io/wdd230/form.html",
+          "title": "HTML Forms"
         }
       ]
     },
